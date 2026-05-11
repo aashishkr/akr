@@ -1,0 +1,53 @@
+<style>
+.profile-bio {
+  text-align: left;
+  max-width: 640px;
+  margin: 1.2rem auto 1.2rem;
+  line-height: 1.7;
+  font-size: 0.97rem;
+}
+.profile-bio p {
+  margin-bottom: 0.85rem;
+}
+</style>
+
+<!-- SEO: OpenGraph & Twitter Card meta -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ if .IsHome }}Aashish Kumar | Software Engineer{{ else }}{{ .Title }} | Aashish Kumar{{ end }}">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}Software Engineer specializing in Distributed Systems, Product Infrastructure, and Privacy Engineering.{{ end }}">
+<meta property="og:image" content="{{ .Site.BaseURL }}images/profile.jpg">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="Aashish Kumar">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ if .IsHome }}Aashish Kumar | Software Engineer{{ else }}{{ .Title }} | Aashish Kumar{{ end }}">
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}Software Engineer specializing in Distributed Systems, Product Infrastructure, and Privacy Engineering.{{ end }}">
+<meta name="twitter:image" content="{{ .Site.BaseURL }}images/profile.jpg">
+
+<!-- Structured Data / JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Aashish Kumar",
+  "url": "{{ .Site.BaseURL }}",
+  "jobTitle": "Software Engineer",
+  "worksFor": [
+    { "@type": "Organization", "name": "Coinbase" }
+  ],
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "IIT (ISM) Dhanbad"
+  },
+  "knowsAbout": ["Distributed Systems", "Product Infrastructure", "Privacy Engineering", "Go", "Java", "Cloud Spanner", "Kafka", "gRPC"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Bengaluru",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/aashish1412/"
+  ],
+  "image": "{{ .Site.BaseURL }}images/profile.jpg"
+}
+</script>

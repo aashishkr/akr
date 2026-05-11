@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kafka on Aashish Kumar | Software Engineer</title>
+    <link>http://localhost:1313/tags/kafka/</link>
+    <description>Recent content in Kafka on Aashish Kumar | Software Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/kafka/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Trade-offs in High-Throughput Event Streams</title>
+      <link>http://localhost:1313/journal/architectural-tradeoffs-event-streams/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/architectural-tradeoffs-event-streams/</guid>
+      <description>Exploring the decisions behind choosing event-driven architectures and the trade-offs that come with scale.</description>
+      <content:encoded><![CDATA[<p><em>Coming soon — a deep dive into the architectural decisions behind building high-throughput event streaming systems, including when to choose Kafka vs. Pub/Sub, partitioning strategies, and exactly-once semantics at scale.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

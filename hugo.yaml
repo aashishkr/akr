@@ -1,0 +1,112 @@
+baseURL: "https://aashishkumar.dev/"
+locale: en-us
+title: "Aashish Kumar | Software Engineer"
+theme: "PaperMod"
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  author: "Aashish Kumar"
+  description: "Software Engineer specializing in Distributed Systems, Product Infrastructure, and Privacy Engineering."
+  keywords:
+    - Software Engineer
+    - Distributed Systems
+    - Product Infrastructure
+    - Privacy Engineering
+    - Go
+    - Java
+    - System Design
+  
+  defaultTheme: auto
+  disableThemeToggle: false
+  showReadingTime: true
+  showShareButtons: true
+  showPostNavLinks: true
+  showBreadCrumbs: true
+  showCodeCopyButtons: true
+  showFullTextinRSS: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  # Home page profile mode
+  profileMode:
+    enabled: true
+    title: "Aashish Kumar"
+    subtitle: "Software Engineer · Distributed Systems & Product Infrastructure"
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "Aashish Kumar"
+    buttons:
+      - name: Contact
+        url: /contact/
+
+  # Social icons
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/aashish1412/"
+    - name: email
+      url: "/contact/"
+
+  # Cover image defaults
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+
+  # SEO / OpenGraph / Twitter
+  label:
+    text: "Aashish Kumar"
+    icon: "/images/profile.jpg"
+    iconHeight: 35
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

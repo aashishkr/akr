@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Migrations on Aashish Kumar | Software Engineer</title>
+    <link>http://localhost:1313/tags/migrations/</link>
+    <description>Recent content in Migrations on Aashish Kumar | Software Engineer</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/migrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Soft Side of Tech Lead: Managing 150M User Migrations</title>
+      <link>http://localhost:1313/journal/soft-side-tech-lead/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/soft-side-tech-lead/</guid>
+      <description>Technical migrations are as much about people and communication as they are about code and infrastructure.</description>
+      <content:encoded><![CDATA[<p><em>Coming soon — a candid look at the human side of large-scale migrations, including stakeholder alignment, risk communication, and the art of making big changes feel small.</em></p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
