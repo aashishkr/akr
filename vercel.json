@@ -1,0 +1,10 @@
+{
+  "framework": "hugo",
+  "buildCommand": "hugo --baseURL https://aashishkumar.vercel.app",
+  "outputDirectory": "public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.161.1"
+    }
+  }
+}
