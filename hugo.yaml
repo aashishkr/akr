@@ -101,10 +101,14 @@ menu:
       name: Home
       url: /
       weight: 1
+    - identifier: research
+      name: Research
+      url: /research/
+      weight: 2
     - identifier: contact
       name: Contact
       url: /contact/
-      weight: 2
+      weight: 3
 
 markup:
   goldmark:

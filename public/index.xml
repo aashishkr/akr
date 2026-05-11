@@ -2,16 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Aashish Kumar on Aashish Kumar | Software Engineer</title>
-    <link>http://localhost:1314/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Aashish Kumar on Aashish Kumar | Software Engineer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1314/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Architectural Trade-offs in High-Throughput Event Streams</title>
+      <link>http://localhost:1313/journal/architectural-tradeoffs-event-streams/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/architectural-tradeoffs-event-streams/</guid>
+      <description>Exploring the decisions behind choosing event-driven architectures and the trade-offs that come with scale.</description>
+      <content:encoded><![CDATA[<p><em>Coming soon — a deep dive into the architectural decisions behind building high-throughput event streaming systems, including when to choose Kafka vs. Pub/Sub, partitioning strategies, and exactly-once semantics at scale.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Privacy by Design: Lessons from EU DMA Compliance</title>
+      <link>http://localhost:1313/journal/privacy-by-design-eu-dma/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/privacy-by-design-eu-dma/</guid>
+      <description>What building privacy-first frameworks for EU DMA compliance taught me about engineering for regulation.</description>
+      <content:encoded><![CDATA[<p><em>Coming soon — reflections on building privacy-first technical frameworks, turning compliance requirements into reusable engineering patterns, and why &lsquo;privacy by design&rsquo; is more than a buzzword.</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>The Soft Side of Tech Lead: Managing 150M User Migrations</title>
+      <link>http://localhost:1313/journal/soft-side-tech-lead/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/journal/soft-side-tech-lead/</guid>
+      <description>Technical migrations are as much about people and communication as they are about code and infrastructure.</description>
+      <content:encoded><![CDATA[<p><em>Coming soon — a candid look at the human side of large-scale migrations, including stakeholder alignment, risk communication, and the art of making big changes feel small.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>Get in Touch</title>
-      <link>http://localhost:1314/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>Reach out for collaboration, speaking, or just to say hello.</description>
       <content:encoded><![CDATA[<p>I&rsquo;m always open to interesting conversations about distributed systems, engineering culture, or potential collaborations.</p>
 <div class="contact-form-container">
@@ -148,6 +176,116 @@ form.addEventListener('submit', async (e) => {
   submitBtn.textContent = originalText;
 });
 </script>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Research Papers</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>Academic papers I have written and papers I have found worth reading.</description>
+      <content:encoded><![CDATA[<div class="research-section">
+<h2 id="written">Written</h2>
+<div class="paper-card">
+  <div class="paper-meta">
+    <span class="paper-year">2018</span>
+    <span class="paper-venue">ICIoTCT 2018 · Elsevier-SSRN</span>
+  </div>
+  <h3 class="paper-title">
+    <a href="https://ssrn.com/abstract=3171519" target="_blank" rel="noopener">
+      A Hénon Map based Cryptosystem for VQ based Compressed Video Data
+    </a>
+  </h3>
+  <p class="paper-authors">Vandana Rathore, Ashish Verma, Aashish Kumar, Arup Kumar Pal</p>
+  <p class="paper-abstract">Proposes a video cryptosystem built on top of Vector Quantization (VQ) based compression. I frames are compressed via codebook generation, while P and B frames are handled through a motion estimation scheme without compensation. The compressed data is then encrypted using a 2-D Hénon chaotic map, yielding high entropy in encrypted frames and no perceptible information leakage.</p>
+</div>
+</div>
+<div class="research-section">
+<h2 id="read">Read</h2>
+<p class="empty-state">Nothing here yet — check back soon.</p>
+</div>
+<style>
+.research-section {
+  margin-bottom: 3rem;
+}
+
+.research-section h2 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.paper-card {
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+  margin-bottom: 1.25rem;
+}
+
+.paper-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper-year {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary);
+  background: var(--border);
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+}
+
+.paper-venue {
+  font-size: 0.82rem;
+  color: var(--secondary);
+}
+
+.paper-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+  line-height: 1.4;
+}
+
+.paper-title a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.paper-title a:hover {
+  border-bottom-color: var(--primary);
+}
+
+.paper-authors {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin: 0 0 0.75rem 0;
+}
+
+.paper-abstract {
+  font-size: 0.88rem;
+  color: var(--secondary);
+  line-height: 1.65;
+  margin: 0;
+}
+
+.empty-state {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  font-style: italic;
+}
+</style>
 ]]></content:encoded>
     </item>
   </channel>
