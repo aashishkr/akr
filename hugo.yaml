@@ -65,6 +65,8 @@ params:
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/aashish1412/"
+    - name: github
+      url: "https://github.com/aashishkr"
     - name: email
       url: "/contact/"
 
