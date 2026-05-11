@@ -67,6 +67,8 @@ params:
       url: "https://www.linkedin.com/in/aashish1412/"
     - name: github
       url: "https://github.com/aashishkr"
+    - name: x
+      url: "https://x.com/beingaashishkr"
     - name: email
       url: "/contact/"
 
