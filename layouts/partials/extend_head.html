@@ -33,24 +33,39 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Aashish Kumar",
+  "givenName": "Aashish",
+  "familyName": "Kumar",
   "url": "{{ .Site.BaseURL }}",
-  "jobTitle": "Software Engineer",
+  "jobTitle": "Senior Software Engineer",
+  "description": "Senior Software Engineer at Coinbase specializing in Distributed Systems, Product Infrastructure, and Privacy Engineering. Formerly at Google for 5 years. IIT (ISM) Dhanbad alumnus.",
   "worksFor": [
-    { "@type": "Organization", "name": "Coinbase" }
+    { "@type": "Organization", "name": "Coinbase", "url": "https://www.coinbase.com" }
   ],
   "alumniOf": {
     "@type": "CollegeOrUniversity",
-    "name": "IIT (ISM) Dhanbad"
+    "name": "IIT (ISM) Dhanbad",
+    "url": "https://www.iitism.ac.in"
   },
-  "knowsAbout": ["Distributed Systems", "Product Infrastructure", "Privacy Engineering", "Go", "Java", "Cloud Spanner", "Kafka", "gRPC"],
+  "knowsAbout": ["Distributed Systems", "Product Infrastructure", "Privacy Engineering", "Go", "Java", "Cloud Spanner", "Kafka", "gRPC", "Event-Driven Architecture", "Backend Engineering"],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Bengaluru",
     "addressCountry": "IN"
   },
   "sameAs": [
-    "https://www.linkedin.com/in/aashish1412/"
+    "https://www.linkedin.com/in/aashish1412/",
+    "https://github.com/aashishkr",
+    "https://x.com/beingaashishkr"
   ],
   "image": "{{ .Site.BaseURL }}images/profile.jpg"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Aashish Kumar",
+  "url": "{{ .Site.BaseURL }}",
+  "description": "Personal website of Aashish Kumar, Senior Software Engineer at Coinbase"
 }
 </script>
